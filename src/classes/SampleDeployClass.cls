@@ -1,6 +1,7 @@
 @isTest
 public class SampleDeployClass {
     // add test comments 8/51 PM
+    // add new static resource on 9:00PM
     public static testmethod void t1() {
         helloMethod();
 
