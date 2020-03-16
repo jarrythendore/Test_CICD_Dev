@@ -1,7 +1,6 @@
 @isTest
 public class SampleDeployClass {
     // add test comments 8/51 PM
-    // create difference for pull request 9/08 PM
     public static testmethod void t1() {
         helloMethod();
 
