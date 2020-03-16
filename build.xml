@@ -22,8 +22,9 @@
 			/> 
 	</target>
 
-  <target name="deployUnpackaged">
-    <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="${sf.retrieveTarget}"/>
+  <target name="deploy">
+    <copy file="${sf2.dir}" todir="${sf2.retrieveTarget}" overwrite="true" failonerror="true"/>
+    <sf:deploy username="${sf2.username}" password="${sf2.password}" serverurl="${sf.serverurl}"  deployRoot="${sf2.retrieveTarget}" runAllTests="true"/>
 	</target>
     
 </project>
