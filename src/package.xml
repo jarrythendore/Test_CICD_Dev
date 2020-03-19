@@ -20,14 +20,18 @@
         <members>*</members>
         <name>ApexTrigger</name>
     </types>
-
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
     <types>
         <members>*</members>
         <name>AuraDefinitionBundle</name>
     </types>
+
     <types>
         <members>*</members>
-        <name>AssignmentRules</name>
+        <name>Workflow</name>
     </types>
     <types>
         <members>*</members>
