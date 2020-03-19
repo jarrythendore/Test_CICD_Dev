@@ -22,20 +22,19 @@
     </types>
     <types>
         <members>*</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>*</members>
         <name>CustomObject</name>
     </types>
     <types>
         <members>*</members>
-        <name>AuraDefinitionBundle</name>
+        <name>StaticResource</name>
     </types>
-
     <types>
         <members>*</members>
         <name>Workflow</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
     </types>
     <version>48.0</version>
 </Package>
